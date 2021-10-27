@@ -36,10 +36,10 @@ inquirer
       message: 'Did you create any tests for your application? Desribe them here.',
     },
     {
-        type: 'list',
-        message: 'Would you like to include a license for your application? Choose from the options below.',
-        name: 'license',
-        choices: ['Apache License 2.0', 'MIT License', 'GNU GPL v3', 'None']
+      type: 'list',
+      message: 'Would you like to include a license for your application? Choose from the options below.',
+      name: 'license',
+      choices: ['Apache License 2.0', 'MIT License', 'GNU GPL v3', 'None']
     },
     {
       type: 'input',

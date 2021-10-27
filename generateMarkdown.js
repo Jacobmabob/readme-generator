@@ -54,26 +54,31 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ---
 
   ## Installation
 
   ${data.instructions}
 
+  ---
 
   ## Usage
 
   ${data.usage}
 
+  ---
 
   ## Contributing
 
   ${data.contributing}
 
+  ---
 
   ## Tests
 
   ${data.tests}
 
+  ---
 
   ## Questions
   Have any questions? Feel free to check out my github or send me an Email!
@@ -81,9 +86,11 @@ function generateMarkdown(data) {
   github.com/${data.github} <br>
   ${data.email}
 
-  ${renderLicenseSection(data.license)};
+  ---
 
+  ${renderLicenseSection(data.license)};
 `
 }
+
 
 module.exports = generateMarkdown;
