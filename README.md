@@ -29,8 +29,8 @@
   This can be used to quickly create readme templates without having to start from scratch every time! <br>
   The template includes sections for: <br>
 
-  - title of your project
-  - table of contents
+  - Title of your project
+  - Table of contents
   - Description 
   - Usage
   - Contributions
@@ -41,6 +41,8 @@
   After running the command "node index" in your terminal, the program will give you a series of prompts. When you've answered all of the prompts, it will generate a filled out README template for your project.  
 
   ![Screen shot of application](images/readme-gen-1.png)
+  <br>
+  [Walk-Through Video](https://watch.screencastify.com/v/OiOAM8EMM4nbOdmvWQiw)
   ---
 
   ## Tests
